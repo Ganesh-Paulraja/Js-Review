@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgba(252, 232, 116, 0.2392156863);
+}
+
+.full-wrapper {
+  text-align: center;
+  padding: 0 20px;
+}
+.full-wrapper .review-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0px 2px 7px 2px rgba(133, 114, 0, 0.4901960784);
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 0%;
+  padding-top: 22px;
+  padding-bottom: 30px;
+}
+.full-wrapper h1 {
+  text-decoration: underline #efcd00;
+  font-size: 40px;
+  padding-top: 8px;
+}
+.full-wrapper h3 {
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  font-size: 20px;
+}
+.full-wrapper h4 {
+  color: #efcd00;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.full-wrapper p {
+  color: #9a8301;
+  padding: 20px;
+}
+.full-wrapper .prev-btn, .full-wrapper .next-btn {
+  background: none;
+  border: none;
+  color: #efcd00;
+  font-size: 40px;
+  cursor: pointer;
+}
+.full-wrapper .prev-btn {
+  margin-right: 30px;
+}
+.full-wrapper button {
+  cursor: pointer;
+}
+.full-wrapper .suprise-btn {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #efcd00;
+  width: 130px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 20px;
+  color: #efcd00;
+  background-color: #fef9dd;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+$theme-color: #efcd00;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: #fce8743d;
+}
+.full-wrapper {
+  text-align: center;
+  padding: 0 20px;
+  .review-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0px 2px 7px 2px #8572007d;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 0%;
+    padding-top: 22px;
+    padding-bottom: 30px;
+  }
+  h1 {
+    text-decoration: underline $theme-color;
+    font-size: 40px;
+    padding-top: 8px;
+  }
+  h3 {
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    font-size: 20px;
+  }
+  h4 {
+    color: $theme-color;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  p {
+    color: #9a8301;
+    padding: 20px;
+  }
+  .prev-btn, .next-btn {
+    background: none;
+    border: none;
+    color: $theme-color;
+    font-size: 40px;
+    cursor:  pointer;
+  }
+  .prev-btn {
+    margin-right: 30px;
+  }
+  button {
+    cursor: pointer;
+  }
+  .suprise-btn {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid $theme-color;
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 20px;
+    color: $theme-color;
+    background-color: #fef9dd;
+    margin-top: 10px;
+  }
+}
